@@ -1,0 +1,6 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>Doser - Dashboard</title><link rel="stylesheet" href="/style.css"></head><body>
+<nav><a href="/index.html">Dashboard</a> | <a href="/calibration.html">Calibration</a> | <a href="/schedule.html">Schedule</a> | <a href="/logs.html">Logs</a> | <a href="/settings.html">Settings</a></nav>
+<div class="card"><h2>Dashboard</h2><div id="ip">IP: ...</div></div>
+<div class="card"><h3>Pumps</h3><div id="pumps"></div></div>
+<div class="card"><h3>Controls</h3>Pump: <select id="pumpsel"></select> Seconds: <input id="secs" type="number" value="5"> Power (0-255): <input id="pwr" type="number" value="255"> <button onclick="start()">Start</button> <button onclick="stop()">Stop</button> <button onclick="prime()">Prime</button> <button onclick="purge()">Purge</button></div>
+<script src="/app.js"></script></body></html>
