@@ -34,6 +34,7 @@ public:
   void stopPump(int idx);
   void primePump(int idx, unsigned long durationMs);
   void purgePump(int idx, unsigned long durationMs);
+  void configPump(int idx, float mlPerSec);
 
   PumpState getPumpState(int idx) const;
   unsigned long getRemainingTime(int idx) const;

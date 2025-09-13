@@ -2,8 +2,14 @@
 #include <Arduino.h>
 
 // WiFi
-constexpr const char* WIFI_SSID = "YOUR_SSID";
-constexpr const char* WIFI_PASS = "YOUR_PASS";
+//constexpr const char* WIFI_SSID = "PHD1 2.4";
+//constexpr const char* WIFI_PASS = "Andrew1Laura2";
+
+//const char* WIFI_SSID = "PHD1 2.4";
+//const char* WIFI_PASS = "Andrew1Laura2";
+
+constexpr const char* WIFI_SSID = "PHD1 2.4";
+constexpr const char* WIFI_PASS = "Andrew1Laura2";
 
 // OTA auth
 constexpr const char* OTA_USER = "admin";
